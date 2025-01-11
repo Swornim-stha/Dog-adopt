@@ -29,7 +29,7 @@
       <i class="fas fa-bars">
       </i>
      </button>
-     <img alt="Dog Adoption Logo" class="h-12 w-12 ml-3 mr-3 rounded-full border-2" height="40" src="https://placehold.co/40x40" width="40"/>
+     <img alt="Dog Adoption Logo" class="h-12 w-12 ml-3 mr-3 rounded-full border-2" height="40" src="../Assets/images/Dog Adoption logo.png" width="40"/>
      <h1 class="text-xl font-bold">
       Dog Adoption
      </h1>
