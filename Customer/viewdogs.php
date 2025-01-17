@@ -48,7 +48,7 @@
   <div class="container mx-auto py-8">
    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-     <img alt="A happy Labrador Retriever named Buddy standing in a grassy field" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/GBqe0c1nrXVvSyWPfW5EC0la3JfqwTuNe5mWl0hx66OrzHHQB.jpg" width="300"/>
+     <img alt="A happy Labrador Retriever named Buddy standing in a grassy field" class="w-full h-48 object-cover" height="200" src="../Uploads/German-Shepherd-dog-Alsatian.webp" width="300"/>
      <div class="p-4">
       <h3 class="text-xl font-bold">
        Buddy
@@ -59,13 +59,13 @@
       <p>
        Breed: Labrador Retriever
       </p>
-      <a class="bg-green-500 text-white px-4 py-2 rounded-full mt-4 inline-block" href="/adoption-request.php?dog_id=1">
+      <a class="bg-green-500 text-white px-4 py-2 rounded-full mt-4 inline-block" href="/adoption_request.php?dog_id=1">
        Adopt
       </a>
      </div>
     </div>
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-     <img alt="A German Shepherd named Max sitting attentively on a porch" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/1fEfm4DpKDrq1kJNtMLJdSBoMrSrf7l9jiPE2r3pRcOM6jDoA.jpg" width="300"/>
+     <img alt="A German Shepherd named Max sitting attentively on a porch" class="w-full h-48 object-cover" height="200" src="../Uploads/German-Shepherd-dog-Alsatian.webp" width="300"/>
      <div class="p-4">
       <h3 class="text-xl font-bold">
        Max
@@ -82,7 +82,7 @@
      </div>
     </div>
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-     <img alt="A playful Golden Retriever puppy named Bella running in a park" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/yBxOY98OHYZ2BVqCVxWyyPRHfpsWfrGe2tIxEktU2KCZ6jDoA.jpg" width="300"/>
+     <img alt="A playful Golden Retriever puppy named Bella running in a park" class="w-full h-48 object-cover" height="200" src="../Uploads/German-Shepherd-dog-Alsatian.webp" width="300"/>
      <div class="p-4">
       <h3 class="text-xl font-bold">
        Bella
@@ -99,7 +99,7 @@
      </div>
     </div>
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-     <img alt="A Beagle named Daisy sniffing around in a garden" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/g0tscRJO0l6BP1ZxuTZqdXkjohesempk3qSIl1yg0pHP9xBUA.jpg" width="300"/>
+     <img alt="A Beagle named Daisy sniffing around in a garden" class="w-full h-48 object-cover" height="200" src="../Uploads/German-Shepherd-dog-Alsatian.webp" width="300"/>
      <div class="p-4">
       <h3 class="text-xl font-bold">
        Daisy
@@ -116,7 +116,7 @@
      </div>
     </div>
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-     <img alt="A friendly Bulldog named Rocky lying on a couch" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/JPC9XoU5a7atE9V1hfKihjMlXQ1VvGrVe0PuI7L6XSVN9xBUA.jpg" width="300"/>
+     <img alt="A friendly Bulldog named Rocky lying on a couch" class="w-full h-48 object-cover" height="200" src="../Uploads/German-Shepherd-dog-Alsatian.webp" width="300"/>
      <div class="p-4">
       <h3 class="text-xl font-bold">
        Rocky
@@ -133,7 +133,7 @@
      </div>
     </div>
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-     <img alt="A Poodle named Coco standing elegantly in a garden" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/LsAQSwMPkJrLL9F0agc5Pw9ujSF8Uk38qRNt4iR6rFIOf4AKA.jpg" width="300"/>
+     <img alt="A Poodle named Coco standing elegantly in a garden" class="w-full h-48 object-cover" height="200" src="../Uploads/German-Shepherd-dog-Alsatian.webp" width="300"/>
      <div class="p-4">
       <h3 class="text-xl font-bold">
        Coco
@@ -150,7 +150,7 @@
      </div>
     </div>
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-     <img alt="A Shih Tzu named Luna sitting on a colorful blanket" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/n6TJpq96stqhAJZyvXL3nxIyq0ZZwQZK9QV0IKwDi4GRf4AKA.jpg" width="300"/>
+     <img alt="A Shih Tzu named Luna sitting on a colorful blanket" class="w-full h-48 object-cover" height="200" src="../Uploads/German-Shepherd-dog-Alsatian.webp" width="300"/>
      <div class="p-4">
       <h3 class="text-xl font-bold">
        Luna
@@ -167,7 +167,7 @@
      </div>
     </div>
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-     <img alt="A Border Collie named Jack playing with a frisbee in a park" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/henAtFButwW8NiBqfGHEUvp9pGrZKl14NiNsuRJx3qIR9xBUA.jpg" width="300"/>
+     <img alt="A Border Collie named Jack playing with a frisbee in a park" class="w-full h-48 object-cover" height="200" src="../Uploads/German-Shepherd-dog-Alsatian.webp" width="300"/>
      <div class="p-4">
       <h3 class="text-xl font-bold">
        Jack
@@ -184,7 +184,7 @@
      </div>
     </div>
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-     <img alt="A Dachshund named Oscar peeking out from under a blanket" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/lMOuxGfQ1PQtIaNopde5Ryfd8cikESlHNQhcf4A4vVcxzHHQB.jpg" width="300"/>
+     <img alt="A Dachshund named Oscar peeking out from under a blanket" class="w-full h-48 object-cover" height="200" src="../Uploads/German-Shepherd-dog-Alsatian.webp" width="300"/>
      <div class="p-4">
       <h3 class="text-xl font-bold">
        Oscar
@@ -201,7 +201,7 @@
      </div>
     </div>
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-     <img alt="A Siberian Husky named Shadow running through snow" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/fqKavDkc4QxkFyoSSfSSAGDee1fvePRoyeRroQFO6Nuke8xBUA.jpg" width="300"/>
+     <img alt="A Siberian Husky named Shadow running through snow" class="w-full h-48 object-cover" height="200" src="../Uploads/German-Shepherd-dog-Alsatian.webp" width="300"/>
      <div class="p-4">
       <h3 class="text-xl font-bold">
        Shadow
@@ -218,7 +218,7 @@
      </div>
     </div>
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-     <img alt="A Cocker Spaniel named Charlie sitting on a porch" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/RKBlmOXVjuqdMdCrB831gjCq5ZEvabrOQneRkeW1Nm4B9xBUA.jpg" width="300"/>
+     <img alt="A Cocker Spaniel named Charlie sitting on a porch" class="w-full h-48 object-cover" height="200" src="../Uploads/German-Shepherd-dog-Alsatian.webp" width="300"/>
      <div class="p-4">
       <h3 class="text-xl font-bold">
        Charlie
@@ -235,7 +235,7 @@
      </div>
     </div>
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
-     <img alt="A Chihuahua named Peanut standing on a table" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/zA4Uea9Uv12eM0Ysnc6BK0BRcy1Wq9qYEKaSv8D155t28xBUA.jpg" width="300"/>
+     <img alt="A Chihuahua named Peanut standing on a table" class="w-full h-48 object-cover" height="200" src="../Uploads/German-Shepherd-dog-Alsatian.webp" width="300"/>
      <div class="p-4">
       <h3 class="text-xl font-bold">
        Peanut
