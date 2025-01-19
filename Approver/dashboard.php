@@ -1,3 +1,28 @@
+<?php
+// Include the database connection file
+include('../database/db_connection.php');
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+// Query to get the count of dogs left for adoption
+$dogsQuery = "SELECT COUNT(*) AS dogs_count FROM dogs WHERE is_adopted = 0"; 
+$resultDogs = $conn->query($dogsQuery);
+$dogsLeft = 0;
+if ($resultDogs->num_rows > 0) {
+    $row = $resultDogs->fetch_assoc();
+    $dogsLeft = $row['dogs_count'];
+}
+
+// Query to get the count of pending adoption requests
+// $requestsQuery = "SELECT COUNT(*) AS requests_count FROM adoption_request WHERE status = 'pending'";
+// $resultRequests = $conn->query($requestsQuery);
+// $requestsPending = 0;
+// if ($resultRequests->num_rows > 0) {
+//     $row = $resultRequests->fetch_assoc();
+//     $requestsPending = $row['requests_count'];
+// }
+?>
+
 <html lang="en">
  <head>
   <meta charset="utf-8"/>
@@ -7,8 +32,7 @@
   </title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
  </head>
  <body class="font-roboto bg-gray-100">
   <div class="fixed top-0 left-0 h-full w-0 bg-white overflow-x-hidden transition-width duration-500 z-10" id="mySidebar">
@@ -47,7 +71,7 @@
    <div class="container mx-auto p-4 flex flex-wrap justify-around items-center">
     <div class="card bg-white p-6 rounded-lg shadow-md text-center m-4">
      <h1 class="text-4xl font-bold" id="dogs-left">
-      10
+      <?php echo $dogsLeft; ?>
      </h1>
      <p class="text-lg">
       Dogs Left for Adoption
@@ -55,7 +79,7 @@
     </div>
     <div class="card bg-white p-6 rounded-lg shadow-md text-center m-4">
      <h1 class="text-4xl font-bold" id="requests-pending">
-      5
+      <?php echo $requestsPending; ?>
      </h1>
      <p class="text-lg">
       Adoption Requests Pending
@@ -84,14 +108,11 @@
 
         // Update the profile picture dynamically
         document.getElementById('profile-picture').src = userProfilePicture;
-
-        // Example dynamic data (Replace this with actual data from your backend)
-        const dogsLeft = 10; // Replace with actual data
-        const requestsPending = 5; // Replace with actual data
-
-        // Update the counts dynamically
-        document.getElementById('dogs-left').textContent = dogsLeft;
-        document.getElementById('requests-pending').textContent = requestsPending;
   </script>
  </body>
 </html>
+
+<?php
+// Close the database connection
+$conn->close();
+?>

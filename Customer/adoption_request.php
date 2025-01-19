@@ -1,4 +1,3 @@
-
 <?php
 // Start the session
 session_start();
@@ -109,7 +108,7 @@ mysqli_close($conn);
             </div>
 
             <!-- Form for adoption request -->
-            <form action="manage_request.php" method="POST" class="mx-auto max-w-lg">
+            <form action="../Approver/manage_request.php" method="POST" class="mx-auto max-w-lg">
                 <input type="hidden" id="dog_id" name="dog_id">
                 <input type="hidden" id="dog_name" name="dog_name">
                 <input type="hidden" id="dog_age" name="dog_age">
@@ -152,7 +151,6 @@ mysqli_close($conn);
         // Set dog details in the form
         document.getElementById('dog_id').value = dogId;
         document.getElementById('dog_name').value = dogName;
-        document.getElementById('dog_age').value
         document.getElementById('dog_age').value = dogAge;
         document.getElementById('dog_breed').value = dogBreed;
         document.getElementById('dog_image').value = dogImage;

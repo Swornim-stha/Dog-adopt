@@ -40,12 +40,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Hash the password
             $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
-            // Insert new user into the database
-            $stmt = $conn->prepare("INSERT INTO users (fullname, email, password) VALUES (?, ?, ?)");
-            $stmt->bind_param("sss", $fullname, $email, $hashedPassword);
+            // Set role to 'admin' if the email is 'example@admin.com', else 'user'
+            $role = ($email === 'example@admin.com') ? 'admin' : 'user';
+
+            // Insert new user into the database with role
+            $stmt = $conn->prepare("INSERT INTO users (fullname, email, password, role) VALUES (?, ?, ?, ?)");
+            $stmt->bind_param("ssss", $fullname, $email, $hashedPassword, $role);
 
             if ($stmt->execute()) {
-                // Redirect to login page
+                // Redirect to login page after successful signup
                 header("Location: login.php");
                 exit();
             } else {
