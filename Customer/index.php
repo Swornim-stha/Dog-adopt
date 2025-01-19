@@ -1,3 +1,7 @@
+<?php
+session_start(); // Start the session
+?>
+<!DOCTYPE html>
 <html lang="en">
  <head>
   <meta charset="utf-8"/>
@@ -39,9 +43,13 @@
      <a class="hover:text-orange-500 text-lg" href="#contact">
       Contact
      </a>
-     <a class="bg-orange-500 text-white px-4 py-2 rounded-full" href="login.php" style="border-radius: 50px;">
-      Login
-     </a>
+     <?php if (isset($_SESSION['user_id'])): ?>
+        <!-- Show "Sign Out" if the user is logged in -->
+        <a class="bg-orange-500 text-white px-4 py-2 rounded-lg" href="logout.php">Sign Out</a>
+     <?php else: ?>
+        <!-- Show "Sign In" if the user is logged out -->
+        <a class="bg-orange-500 text-white px-4 py-2 rounded-lg" href="login.php">Sign In</a>
+     <?php endif; ?>
     </div>
    </div>
   </nav>
